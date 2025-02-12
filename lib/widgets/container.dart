@@ -46,7 +46,10 @@ class MyWidget extends StatelessWidget {
               borderRadius: BorderRadius.circular(50),
               boxShadow: [
                 BoxShadow(
-                    color: Colors.black, offset: Offset(10, 20), blurRadius: 10)
+                    color: Colors.black, 
+                    offset: Offset(10, 20),
+                    blurRadius: 10
+                )
               ]),
         ),
       ),
