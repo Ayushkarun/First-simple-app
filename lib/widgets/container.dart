@@ -4,7 +4,8 @@ class MyWidget extends StatelessWidget {
   const MyWidget({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) 
+  {
     return Scaffold(
       ///app bar
       appBar: AppBar(
@@ -31,6 +32,7 @@ class MyWidget extends StatelessWidget {
         //     fontSize: 30,
         //   ),
         // ),
+        
         child: Container(
           child: Text("Hello Developers",
               style: TextStyle(fontSize: 25, color: Colors.black)),
