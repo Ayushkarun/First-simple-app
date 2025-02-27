@@ -24,7 +24,6 @@ class MyWidget extends StatelessWidget {
             borderRadius: BorderRadius.vertical(bottom: Radius.circular(30))),
         elevation: 30,
       ),
-
       body: Center(
         // child: Text(
         //   "Hello Guyzzz hai",
@@ -32,8 +31,7 @@ class MyWidget extends StatelessWidget {
         //     fontSize: 30,
         //   ),
         // ),
-        
-        child: Container(
+          child: Container(
           child: Text("Hello Developers",
               style: TextStyle(fontSize: 25, color: Colors.black)),
           // color: Colors.red,
@@ -53,7 +51,6 @@ class MyWidget extends StatelessWidget {
                     blurRadius: 10
                 )
               ]),
-          
         ),
       ),
     );
